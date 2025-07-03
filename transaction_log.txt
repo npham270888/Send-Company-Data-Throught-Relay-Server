@@ -1,0 +1,98 @@
+[2025-07-03 01:36:48.330] SERVER_START - Server khởi động tại localhost:8888
+[2025-07-03 01:36:52.803] CLIENT_CONNECT - Client kết nối từ ('127.0.0.1', 28987)
+[2025-07-03 01:36:52.805] MESSAGE_RECEIVED - From 127.0.0.1:28987 (receiver) - Type: register
+[2025-07-03 01:36:52.805] CLIENT_REGISTERED - Client 127.0.0.1:28987 đăng ký là receiver
+[2025-07-03 01:37:01.759] CLIENT_CONNECT - Client kết nối từ ('127.0.0.1', 29014)
+[2025-07-03 01:37:01.759] MESSAGE_RECEIVED - From 127.0.0.1:29014 (sender) - Type: register
+[2025-07-03 01:37:01.760] CLIENT_REGISTERED - Client 127.0.0.1:29014 đăng ký là sender
+[2025-07-03 01:37:01.811] MESSAGE_RECEIVED - From 127.0.0.1:29014 (sender) - Type: handshake
+[2025-07-03 01:37:01.811] MESSAGE_FORWARDED - Handshake từ sender 127.0.0.1:29014 đến receiver
+[2025-07-03 01:37:01.811] MESSAGE_RECEIVED - From 127.0.0.1:28987 (receiver) - Type: handshake
+[2025-07-03 01:37:01.812] MESSAGE_FORWARDED - Ready từ receiver 127.0.0.1:28987 đến sender
+[2025-07-03 01:37:02.007] CLIENT_DISCONNECT - Client 127.0.0.1:29014 ngắt kết nối
+[2025-07-03 01:41:00.985] SERVER_START - Server khởi động tại localhost:8888
+[2025-07-03 01:41:04.959] CLIENT_CONNECT - Client kết nối từ ('127.0.0.1', 29481)
+[2025-07-03 01:41:04.961] MESSAGE_RECEIVED - From 127.0.0.1:29481 (receiver) - Type: register
+[2025-07-03 01:41:04.963] CLIENT_REGISTERED - Client 127.0.0.1:29481 đăng ký là receiver
+[2025-07-03 01:41:10.000] CLIENT_CONNECT - Client kết nối từ ('127.0.0.1', 29492)
+[2025-07-03 01:41:10.001] MESSAGE_RECEIVED - From 127.0.0.1:29492 (sender) - Type: register
+[2025-07-03 01:41:10.001] CLIENT_REGISTERED - Client 127.0.0.1:29492 đăng ký là sender
+[2025-07-03 01:41:10.002] MESSAGE_RECEIVED - From 127.0.0.1:29492 (sender) - Type: handshake
+[2025-07-03 01:41:10.003] MESSAGE_FORWARDED - Handshake từ sender 127.0.0.1:29492 đến receiver
+[2025-07-03 01:41:10.003] MESSAGE_RECEIVED - From 127.0.0.1:29481 (receiver) - Type: handshake
+[2025-07-03 01:41:10.004] MESSAGE_FORWARDED - Ready từ receiver 127.0.0.1:29481 đến sender
+[2025-07-03 01:41:10.005] CLIENT_DISCONNECT - Client 127.0.0.1:29492 ngắt kết nối
+[2025-07-03 01:41:56.159] CLIENT_CONNECT - Client kết nối từ ('127.0.0.1', 29582)
+[2025-07-03 01:41:56.159] MESSAGE_RECEIVED - From 127.0.0.1:29582 (sender) - Type: register
+[2025-07-03 01:41:56.161] CLIENT_REGISTERED - Client 127.0.0.1:29582 đăng ký là sender
+[2025-07-03 01:41:56.161] MESSAGE_RECEIVED - From 127.0.0.1:29582 (sender) - Type: handshake
+[2025-07-03 01:41:56.163] MESSAGE_FORWARDED - Handshake từ sender 127.0.0.1:29582 đến receiver
+[2025-07-03 01:41:56.163] MESSAGE_RECEIVED - From 127.0.0.1:29481 (receiver) - Type: handshake
+[2025-07-03 01:41:56.164] HANDLE_ERROR - From 127.0.0.1:29481 - Error: [WinError 10038] An operation was attempted on something that is not a socket
+[2025-07-03 01:42:56.710] SERVER_START - Server khởi động tại localhost:8888
+[2025-07-03 01:43:00.450] CLIENT_CONNECT - Client kết nối từ ('127.0.0.1', 29719)
+[2025-07-03 01:43:00.452] MESSAGE_RECEIVED - From 127.0.0.1:29719 (receiver) - Type: register
+[2025-07-03 01:43:00.453] CLIENT_REGISTERED - Client 127.0.0.1:29719 đăng ký là receiver
+[2025-07-03 01:43:04.610] CLIENT_CONNECT - Client kết nối từ ('127.0.0.1', 29729)
+[2025-07-03 01:43:04.611] MESSAGE_RECEIVED - From 127.0.0.1:29729 (sender) - Type: register
+[2025-07-03 01:43:04.611] CLIENT_REGISTERED - Client 127.0.0.1:29729 đăng ký là sender
+[2025-07-03 01:43:04.613] MESSAGE_RECEIVED - From 127.0.0.1:29729 (sender) - Type: handshake
+[2025-07-03 01:43:04.613] MESSAGE_FORWARDED - Handshake từ sender 127.0.0.1:29729 đến receiver
+[2025-07-03 01:43:04.613] MESSAGE_RECEIVED - From 127.0.0.1:29719 (receiver) - Type: handshake
+[2025-07-03 01:43:04.614] MESSAGE_FORWARDED - Ready từ receiver 127.0.0.1:29719 đến sender
+[2025-07-03 01:43:04.616] MESSAGE_RECEIVED - From 127.0.0.1:29729 (sender) - Type: auth_key
+[2025-07-03 01:43:04.617] AUTH_KEY_FORWARDED - Từ sender 127.0.0.1:29729 đến receiver - Metadata: report.txt|1751481784|TXN_1751481784
+[2025-07-03 01:43:04.619] MESSAGE_RECEIVED - From 127.0.0.1:29719 (receiver) - Type: response
+[2025-07-03 01:43:04.620] RESPONSE_FORWARDED - Từ receiver 127.0.0.1:29719 đến sender - Status: NACK
+[2025-07-03 01:43:04.621] CLIENT_DISCONNECT - Client 127.0.0.1:29729 ngắt kết nối
+[2025-07-03 01:43:04.621] CLIENT_DISCONNECT - Client 127.0.0.1:29719 ngắt kết nối
+[2025-07-03 01:44:40.097] SERVER_START - Server khởi động tại localhost:8888
+[2025-07-03 01:44:43.587] CLIENT_CONNECT - Client kết nối từ ('127.0.0.1', 29903)
+[2025-07-03 01:44:43.588] MESSAGE_RECEIVED - From 127.0.0.1:29903 (receiver) - Type: register
+[2025-07-03 01:44:43.588] CLIENT_REGISTERED - Client 127.0.0.1:29903 đăng ký là receiver
+[2025-07-03 01:44:48.257] CLIENT_CONNECT - Client kết nối từ ('127.0.0.1', 29925)
+[2025-07-03 01:44:48.258] MESSAGE_RECEIVED - From 127.0.0.1:29925 (sender) - Type: register
+[2025-07-03 01:44:48.259] CLIENT_REGISTERED - Client 127.0.0.1:29925 đăng ký là sender
+[2025-07-03 01:44:48.259] MESSAGE_RECEIVED - From 127.0.0.1:29925 (sender) - Type: handshake
+[2025-07-03 01:44:48.259] MESSAGE_FORWARDED - Handshake từ sender 127.0.0.1:29925 đến receiver
+[2025-07-03 01:44:48.260] MESSAGE_RECEIVED - From 127.0.0.1:29903 (receiver) - Type: handshake
+[2025-07-03 01:44:48.261] MESSAGE_FORWARDED - Ready từ receiver 127.0.0.1:29903 đến sender
+[2025-07-03 01:44:48.265] MESSAGE_RECEIVED - From 127.0.0.1:29925 (sender) - Type: auth_key
+[2025-07-03 01:44:48.265] AUTH_KEY_FORWARDED - Từ sender 127.0.0.1:29925 đến receiver - Metadata: report.txt|1751481888|TXN_1751481888
+[2025-07-03 01:44:48.268] MESSAGE_RECEIVED - From 127.0.0.1:29903 (receiver) - Type: response
+[2025-07-03 01:44:48.269] RESPONSE_FORWARDED - Từ receiver 127.0.0.1:29903 đến sender - Status: auth_ok
+[2025-07-03 01:44:48.652] MESSAGE_RECEIVED - From 127.0.0.1:29925 (sender) - Type: encrypted_file
+[2025-07-03 01:44:48.652] FILE_FORWARDED - Từ sender 127.0.0.1:29925 đến receiver - File size (encrypted): 4 bytes
+[2025-07-03 01:44:48.659] MESSAGE_RECEIVED - From 127.0.0.1:29903 (receiver) - Type: response
+[2025-07-03 01:44:48.660] RESPONSE_FORWARDED - Từ receiver 127.0.0.1:29903 đến sender - Status: ACK
+[2025-07-03 01:44:48.660] CLIENT_DISCONNECT - Client 127.0.0.1:29925 ngắt kết nối
+[2025-07-03 01:47:27.148] CLIENT_ERROR - Client 127.0.0.1:29903 - Error: [WinError 10054] An existing connection was forcibly closed by the remote host
+[2025-07-03 01:47:27.163] CLIENT_DISCONNECT - Client 127.0.0.1:29903 ngắt kết nối
+[2025-07-03 01:47:32.726] CLIENT_CONNECT - Client kết nối từ ('127.0.0.1', 30146)
+[2025-07-03 01:47:32.727] MESSAGE_RECEIVED - From 127.0.0.1:30146 (receiver) - Type: register
+[2025-07-03 01:47:32.728] CLIENT_REGISTERED - Client 127.0.0.1:30146 đăng ký là receiver
+[2025-07-03 01:47:44.856] CLIENT_CONNECT - Client kết nối từ ('127.0.0.1', 30167)
+[2025-07-03 01:47:44.857] MESSAGE_RECEIVED - From 127.0.0.1:30167 (sender) - Type: register
+[2025-07-03 01:47:44.858] CLIENT_REGISTERED - Client 127.0.0.1:30167 đăng ký là sender
+[2025-07-03 01:47:44.859] MESSAGE_RECEIVED - From 127.0.0.1:30167 (sender) - Type: handshake
+[2025-07-03 01:47:44.860] HANDLE_ERROR - From 127.0.0.1:30167 - Error: [WinError 10038] An operation was attempted on something that is not a socket
+[2025-07-03 01:47:58.171] SERVER_START - Server khởi động tại localhost:8888
+[2025-07-03 01:48:02.737] CLIENT_CONNECT - Client kết nối từ ('127.0.0.1', 30203)
+[2025-07-03 01:48:02.738] MESSAGE_RECEIVED - From 127.0.0.1:30203 (receiver) - Type: register
+[2025-07-03 01:48:02.739] CLIENT_REGISTERED - Client 127.0.0.1:30203 đăng ký là receiver
+[2025-07-03 01:48:05.926] CLIENT_CONNECT - Client kết nối từ ('127.0.0.1', 30216)
+[2025-07-03 01:48:05.927] MESSAGE_RECEIVED - From 127.0.0.1:30216 (sender) - Type: register
+[2025-07-03 01:48:05.928] CLIENT_REGISTERED - Client 127.0.0.1:30216 đăng ký là sender
+[2025-07-03 01:48:05.928] MESSAGE_RECEIVED - From 127.0.0.1:30216 (sender) - Type: handshake
+[2025-07-03 01:48:05.929] MESSAGE_FORWARDED - Handshake từ sender 127.0.0.1:30216 đến receiver
+[2025-07-03 01:48:05.929] MESSAGE_RECEIVED - From 127.0.0.1:30203 (receiver) - Type: handshake
+[2025-07-03 01:48:05.930] MESSAGE_FORWARDED - Ready từ receiver 127.0.0.1:30203 đến sender
+[2025-07-03 01:48:05.932] MESSAGE_RECEIVED - From 127.0.0.1:30216 (sender) - Type: auth_key
+[2025-07-03 01:48:05.933] AUTH_KEY_FORWARDED - Từ sender 127.0.0.1:30216 đến receiver - Metadata: report.txt|1751482085|TXN_1751482085
+[2025-07-03 01:48:05.936] MESSAGE_RECEIVED - From 127.0.0.1:30203 (receiver) - Type: response
+[2025-07-03 01:48:05.937] RESPONSE_FORWARDED - Từ receiver 127.0.0.1:30203 đến sender - Status: auth_ok
+[2025-07-03 01:48:05.949] MESSAGE_RECEIVED - From 127.0.0.1:30216 (sender) - Type: encrypted_file
+[2025-07-03 01:48:05.949] FILE_FORWARDED - Từ sender 127.0.0.1:30216 đến receiver - File size (encrypted): 140 bytes
+[2025-07-03 01:48:05.963] MESSAGE_RECEIVED - From 127.0.0.1:30203 (receiver) - Type: response
+[2025-07-03 01:48:05.965] RESPONSE_FORWARDED - Từ receiver 127.0.0.1:30203 đến sender - Status: ACK
+[2025-07-03 01:48:05.965] CLIENT_DISCONNECT - Client 127.0.0.1:30216 ngắt kết nối
